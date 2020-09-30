@@ -1,11 +1,12 @@
 <?php
 
-include 'head.php';
-echo' Realiza un programa que vaya generando números entre 1 y 50, HASTA que se genere el numero 1, en cuyo caso se
-    terminará de generar numeros.<br>
-Deberemos calcular:
-<ol><li>Cuantos números se han introducido</li><li>La media de los impares</li> <li>El mayor de los pares</li></ol>';
+echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
+ muestre una imagen con los valores obtenidos en cada uno de los dados.<br>';
+ echo ' Entre cada visualizacion de los dado abra un intervalo de 3 segundos';
+ echo ' <pre>Para ello deberas utilizar la funcion sleep
+ por ejemplo
+  // dormir durante 10 segundos
+ sleep(10)</pre>';
 
-
-
- include 'pie.php';
+ echo' Cuando termine la simulacion de la tirada me debera aparecer la suma de los
+ numeros que han aparecido en los dados';

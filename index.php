@@ -25,7 +25,7 @@ echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
          case 6:echo'<img src="imagenes_dados/seis.jpg" alt="seis" width="128" height="128">';break;
 
     }
-    sleep(3);
+    sleep(1);
     $suma+=$numero;
 
 

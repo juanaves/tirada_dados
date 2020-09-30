@@ -2,11 +2,7 @@
 
 echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
  muestre una imagen con los valores obtenidos en cada uno de los dados.<br>';
- echo ' Entre cada visualizacion de los dado abra un intervalo de 3 segundos';
- echo ' <pre>Para ello deberas utilizar la funcion sleep
- por ejemplo
-  // dormir durante 10 segundos
- sleep(10)</pre>';
+ 
 
  echo' Cuando termine la simulacion de la tirada me debera aparecer la suma de los
  numeros que han aparecido en los dados<br>';
@@ -26,9 +22,9 @@ echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
          case 6:echo'<img src="imagenes/seis.jpg" alt="seis" width="128" height="128">';break;
 
     }
-    sleep(3);
+    
     $suma+=$numero;
 
 
 }
-echo 'La suma es : ',$suma;
+echo '<br>La suma de los que han aparecido en los dados ha sido : ',$suma;

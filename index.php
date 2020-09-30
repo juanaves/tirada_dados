@@ -27,4 +27,4 @@ echo '<br>Escribe un script PHP que realice la simulación de lanzar 5 dados y
 
 
 }
-echo '<br>La suma de los que han aparecido en los dados ha sido : ',$suma;
+echo '<br>La suma de los nuemros que han aparecido en los dados ha sido : ',$suma;

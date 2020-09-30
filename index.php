@@ -1,6 +1,6 @@
 <?php
-
-echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
+echo '<h1>Tirada de dados</h1>';
+echo '<br>Escribe un script PHP que realice la simulación de lanzar 5 dados y
  muestre una imagen con los valores obtenidos en cada uno de los dados.<br>';
  
 

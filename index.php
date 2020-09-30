@@ -1,5 +1,5 @@
 <?php
-echo'<img src="imagenes_dadosuno.jpg" alt="uno" width="128" height="128">';
+
 echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
  muestre una imagen con los valores obtenidos en cada uno de los dados.<br>';
  echo ' Entre cada visualizacion de los dado abra un intervalo de 3 segundos';
@@ -9,10 +9,11 @@ echo 'Escribe un script PHP que realice la simulación de lanzar 5 dados y
  sleep(10)</pre>';
 
  echo' Cuando termine la simulacion de la tirada me debera aparecer la suma de los
- numeros que han aparecido en los dados';
+ numeros que han aparecido en los dados<br>';
  $suma=0;
  for ($i=0;$i<5;$i++)
  {
+     
      $numero=rand(1,6);
      
      switch($numero)

@@ -25,6 +25,8 @@ echo '<br>Escribe un script PHP que realice la simulación de lanzar 5 dados y
     }
     
     $suma+=$numero;
+    $suma+=$numero;
+
 
 
 }

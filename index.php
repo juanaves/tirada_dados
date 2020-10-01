@@ -7,7 +7,7 @@ echo '<br>Escribe un script PHP que realice la simulación de lanzar 5 dados y
  echo' Cuando termine la simulacion de la tirada me debera aparecer la suma de los
  numeros que han aparecido en los dados<br>';
  $suma=0;
- $suma=5;
+
  for ($i=0;$i<5;$i++)
  {
      
